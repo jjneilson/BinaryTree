@@ -1,0 +1,38 @@
+/*
+ * Student.cpp
+ *
+ *  Created on: Oct 13, 2021
+ *      Author: 13027
+ */
+
+
+#include "Student.hpp"
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+//class Student {
+//	friend class TNode;
+//	friend class StudentTreeInfo;
+//	friend class BST;
+//	string first;
+//	string last;
+//	int fav_num;
+//	string joke;
+//public:
+//	Student();
+//	Student(string sarr[]);
+//};
+
+Student::Student() {
+	first = "Wendy";
+	last = "Adams";
+	fav_num = 13;
+	joke = "I picked up a hitchhiker the other day. He climbed in and said, 'I'm actually surprised you picked me up.  Weren't you afraid I could be a serial killer?'  I replied, 'Nah, what are the odds of there being 2 serial killers in one car?'";
+}
+Student::Student(string f, string l, int n, string j){
+	first = f;
+	last = l;//
+	fav_num = n;
+	joke = j;
+}
